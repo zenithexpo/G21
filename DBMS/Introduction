@@ -1,0 +1,39 @@
+1. The database environment has all of the following components except:
+
+-database
+
+-separate files [/]
+
+-database administrator
+
+-users
+
+2. Goals for the design of the logical scheme include?
+
+- Being able to construct query easily 
+
+- Being able to access data effciently 
+
+- All the above [/]
+
+3. DBMS helps achieve - Centralized Control of data and Data independence
+
+4. The collection of information stored in a database at a particular moment is called as
+- instance of the database
+
+5. A ______ is used to define the overall design of the database
+- schema
+
+6. Database applications were built directly on top of the file system to overcome the following drawbacks of using file-systems:
+
+
+-Database applications were built directly on top of file system to overcome the following drawbacks of using file-systems:
+Data redundancy and inconsistency Redundancy is the concept of repetition of data i.e. each data may have more than a single copy. We can overcome over it with the help of Normalisation
+Difficulty in accessing Data can be overcome by different type of queries i.e. procedural and non procedural queries.
+Data isolation can be removed by join etc.
+Integrity problems Integrity Constraints are the compulsory conditions which should be satisfied by every data value present in the relational table at any instance of time to ensure that the database consists of only meaningful and relevant data. There are four types of integrity constraints:
+Domain Constraints : Every attribute should have values within its defined domain.
+Key Constraints : There should be a primary key for every relational table.
+Entity Integrity Constraints : No NULL values should be there for the Primary Keys.
+Referential Integrity Constraints : In relational model, when two tables are related to each other with the help of some common attributes, the value of referencing attribute should be present in the referenced attribute else it should be NULL.
+So, option (D) is correct.
